@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import Category, Recipe
+from recipe.models import Category, Recipe
 
 class CategoryModelTest(TestCase):
     def test_category_creation_and_iter(self):
